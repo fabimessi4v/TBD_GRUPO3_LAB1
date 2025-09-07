@@ -44,7 +44,6 @@ JOIN Comuna     co_pe ON co_pe.IdComuna = pe.IdComuna
 JOIN Comuna     co_cl ON co_cl.IdComuna = cl.IdComuna       
 WHERE p.Monto > prom.PromedioMesPelu
 ORDER BY ci.IdPeluqueria, p.FechaPago;
-*/
 
 -- 3 
 WITH sueldos_empleados AS (
